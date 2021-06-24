@@ -1,0 +1,36 @@
+.topNavBar {
+    /* display: flex */
+    
+}
+.topnav__left {
+    text-align: start;
+    display: flex;
+    align-items: center;
+}
+.topnav__left a {
+    margin-bottom: 0;
+    text-decoration: none;
+    color: #888888;
+    display: block;
+}
+
+.topnav__right {
+    /* text-align: ; */
+    display: flex;
+    align-items: center;
+}
+.topnav__right p {
+    margin-bottom: 0;
+    color: #888888;
+}
+
+
+/* navbar */
+.nav__link {
+    color: #111;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.nav__link:hover {
+    color: rgb(235, 162, 28);
+}
