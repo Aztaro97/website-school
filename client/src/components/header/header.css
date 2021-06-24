@@ -13,6 +13,9 @@
     color: #888888;
     display: block;
 }
+.topnav__left a:hover {
+    color: #e74c3c;
+}
 
 .topnav__right {
     /* text-align: ; */
@@ -22,6 +25,10 @@
 .topnav__right p {
     margin-bottom: 0;
     color: #888888;
+}
+.topnav__right p:hover {
+    color: #e74c3c;
+    cursor: pointer;
 }
 
 
