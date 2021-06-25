@@ -1,0 +1,32 @@
+.footer_container {
+  position: absolute;
+  padding: 10px 10px 0px 10px;
+  bottom: 10px;
+  width: 100%;
+  /* Height of the footer*/
+  height: 300px;
+  display: flex;
+}
+.social {
+  border: green soild;
+  display: block;
+  width: auto;
+  margin-top: 30px;
+}
+.social_icons {
+  margin-left: 40px;
+  margin-top: 60px;
+}
+.address_container {
+  display: block;
+  margin-top: 20px;
+  margin-left: 80px;
+}
+
+.icons {
+  margin-top: 15px;
+}
+.contact_us {
+  font-weight: bolder;
+  font-size: xx-large;
+}
