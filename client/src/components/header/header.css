@@ -1,7 +1,4 @@
-.topNavBar {
-    /* display: flex */
-    
-}
+
 .topnav__left {
     text-align: start;
     display: flex;
@@ -40,4 +37,11 @@
 }
 .nav__link:hover {
     color: rgb(235, 162, 28);
+}
+.navbar__toggler span {
+    background: #8a1d1d !important;
+}
+
+@media only screen and (max-width:"900px") {
+
 }

@@ -4,6 +4,9 @@ import { Image, Row, Col, Container, Navbar, Nav } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import "./header.css";
 
+
+import logo from "./../../img/logo.png";
+
 const TopNavbar = () => {
   return (
     <Container className="">
@@ -20,11 +23,7 @@ const TopNavbar = () => {
         <Col lg={4}>
           <div className="topnav__center">
             <Link to="/">
-            <Image
-              width="300"
-              src="http://www.sc3yaokouass.universe.wf/wp-content/uploads/2021/05/LOGO-POLYFINANCE-2048x211.png"
-              fluid
-            />
+              <Image width="300" src={logo} fluid />
             </Link>
           </div>
         </Col>
@@ -43,16 +42,17 @@ const TopNavbar = () => {
   );
 };
 
+
+
 const NavBarBottom = () => {
   return (
-    <Navbar
-      bg="white"
-      variant="white"
-      style={{ display: "flex", justifyContent: "center" }}
-    >
-      <Navbar.Toggle aria-controls="basic-navbar-nav" />
-      <Navbar.Collapse id="basic-navbar-nav" className="navbar__mobile">
-        <Nav className="navigation">
+    <Navbar collapseOnSelect expand="lg" bg="white" variant="white">
+      <Navbar.Toggle
+        className="navbar__toggler"
+        aria-controls="responsive-navbar-nav"
+      />
+      <Navbar.Collapse id="responsive-navbar-nav">
+        <Nav className="navigation mx-auto">
           <Link className="nav__link nav-link" to="/">
             Home
           </Link>
@@ -74,9 +74,13 @@ const NavBarBottom = () => {
   );
 };
 
+
+
+
+
 function Header() {
   return (
-    <div className="pt-4">
+    <div className="app pt-4">
       <Container>
         <TopNavbar />
         <hr />

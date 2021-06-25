@@ -9,6 +9,8 @@ import HomePage from "./components/Home/home";
 import ContactPage from "./components/contact/contact";
 import AboutPage from "./components/about/about";
 
+
+
 const App = () => {
   return (
     <div className="App">
